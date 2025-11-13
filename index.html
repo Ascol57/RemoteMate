@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ControlPanel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header-row">
+            <h1>Control Panel</h1>
+            <button class="reload-btn" title="Recharger les boutons">⟳</button>
+            <button class="fullscreen-btn" id="fullscreenBtn" title="Plein écran">Plein écran</button>
+        </div>
+        <div class="button-container">
+        </div>
+        <iframe
+            src="/KapChat.htm?channel={{channel}}&fade=false&bot_activity=true&prevent_clipping=false"
+            frameborder="0"></iframe>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
